@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-width="1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<script src="https://use.fontawesome.com/54806a6013.js" charset="utf-8"></script>
+  </head>
+  <body>
+<section class="header">
+<nav>
+  <a href="#"><img src="images/TinkerHub_GCE Kannur (1).png" alt="" ></a>
+  <div class="nav-links">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">BLOG</a></li>
+      <li><a href="#">CONTACT</a></li>
+      <li><a href="#" class="on">SIGN UP</a></li>
+      <li><a href="#" class="on">LOGIN</a></li>
+
+    </ul>
+  </div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box" style="position:absolute;">
+  <img class="gcek" src="images/gcek11.png" alt="" style="width:500px; height:290px; position:absolute; bottom:100%; right: 28%;">
+  <!-- <h1>World's Biggest University</h1>
+  <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS, <br> Javascript and you are good to go.</p> -->
+  <a class="hero-btn" href="#">Visit Us To Know More</a>
+</div>
+
+</section>
+
+
+<!-- javascript for toggle menu -->
+<script type="text/javascript">
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+
+  </body>
+</html>
